@@ -1,0 +1,872 @@
+@font-face 
+{
+    font-family: 'zen';
+    src:  url('ZenKurenaido-Regular.ttf');
+}
+
+
+
+/* !!!!!!!!!!!!! HEADER !!!!!!!!!!!!!*/
+.head
+{
+	background-color: #f6ab65;
+}
+/*NAVBARRE*/
+.tomate
+{
+	background-color: #3babfe;
+}
+.recherche 
+{
+	color: white;
+}
+.ufo /*barre de recherche le carré blanc*/
+{
+	width: 80%;
+}
+.nav-link
+{
+	color: white !important;
+	font-size: 1.3em;
+}
+.nav-link:focus
+{
+	background-color: #3bdbfe;
+}
+.rappel
+{
+	background-color: #d1d1d1;
+}
+/* !!!!!!!!!!!!! FIN HEADER !!!!!!!!!!!!!*/
+
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!*/
+.violette
+{
+	background-color: #b2b1ec;
+}
+.violette a
+{
+	color: black;
+	text-decoration: none;
+}
+.violette2
+{
+	background-color: #b2b1ec;
+}
+.copy a
+{
+	color: black;
+	text-decoration: none;
+}
+/* pour faire les barre de chaque coté !*/
+.border-rouge
+{
+	border: 2px solid white;
+}
+.height-special
+{
+	height: 100px;
+}
+.violette2 h3 
+{
+    height : 50px;
+    text-align : center;
+}
+.violette2 h3::before 
+{
+    content :'';
+    height: 2px;
+    width: 33%;
+    background: #f00;
+    display: block;
+    float: left;
+    margin-top: 24px;
+}
+.violette2 h3::after 
+{
+    content :'';
+    height: 2px;
+    width: 33%;
+    background: #f00;
+    display: block;
+    float: right;
+    margin-top: 24px;
+}
+.copy
+{
+	background-color: #7873b0;
+}
+.marque
+{
+	background-color: #DDE9F0;
+}
+/* !!!!!!!!!!!!!  FIN FOOTER !!!!!!!!!!!!!*/
+
+
+
+
+
+h1
+{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.btn
+{
+	background-color: #3babfe;
+	color: white !important;
+
+}
+h4, h2, h3
+{
+	text-decoration: underline;
+}
+h5, h6
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.ipo /* avis boutique*/
+{
+	background-color: #d1d1d1;
+}
+.ipo img 
+{
+	height: 100px;
+}
+.ipo2
+{
+	border: 1px solid white;
+	border-radius: 15px;
+}
+.ipo3
+{
+	margin-top: 10px;
+}
+.italic
+{
+	font-style: italic;
+}
+.news
+{
+	background-color: #f6ab65;
+}
+.money
+{
+	color: red;
+	font-weight: bold;
+}
+.actu img
+{
+	height: 232.667px;
+}
+.reco .btn /* slider recommendation*/
+{
+	background-color: #c21118;
+}
+.reco .container
+{
+	background-color: #EFBE91;
+	border-radius: 10px;
+}
+.swiper-slide
+{
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+.fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+/* Si elle porte en plus la classe '.gold', elle sera en jaune. */
+.fa-star.gold {
+	color: #ffdc0f;
+}
+
+/* Le parent global '.rating' positionne le groupe des étoiles et le lien en colonne */
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: center;
+		font-size: 3em;
+	}
+
+	/**
+	 * Et là opère la magie du ':hover' !
+	 */
+
+	/* A l'état :hover sur le parent '.rating',
+		 on force TOUTES les étoiles à passer en jaune. */
+	.stars:hover .fa-star {
+		color: #ffdc0f;
+	}
+	/* Et si la souris survole une étoile en particulier,
+		 on sélectionne toutes les étoiles qui sont APRÈS celle-ci
+		 grâce à l'opérateur '~' et on les force en GRIS */
+	.stars .fa-star:hover ~ .fa-star {
+		color: gray;
+	}
+
+
+.votre_avis
+{
+  position: fixed;
+  right: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: rotate(270deg);
+}
+
+
+
+
+
+
+/**************************************************************************************************************************************************/
+/**************************************************************************************************************************************************/
+
+
+
+
+
+/* PAGE CHIEN */
+
+.card-body
+{
+	background-color: #EFBE91;
+}
+.card
+{
+	border : none;
+}
+.intro_chien
+{
+	font-size: 1.3em;
+}
+
+
+
+/* PAGE ALIMENTATION-CROQUETTES */
+.sub .btn 
+{
+	background-color: #c21118;
+}
+.sub
+{
+	border: 1px solid black;
+	border-radius: 15px;	
+}
+.accordion-button
+{
+	background-color: #a8d6f7;
+}
+
+
+/* PAGE PRODUIT */
+
+.avProduit .ratings i {
+    color: #cecece;
+    font-size: 32px
+}
+
+.avProduit .rating-color {
+    color: #fbc634 !important
+}
+
+.avProduit .review-count {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 24px !important;
+    text-align: right !important;
+}
+
+input{
+  font-size: 1em;
+  width: 30px;
+  margin: 0;
+}
+
+input#result{
+  width: 50px;
+  text-align: center;
+}
+
+.btnPanier .btn
+{
+	background-color: #c21118
+}
+
+.fa-check
+{
+	color: green;
+}
+
+.fondProd
+{
+	background-color: #ededed;
+	border-radius: 10px;
+}
+
+
+/* PARTIE AVIS !!!!!!!*/
+
+.etoileAvis .ratings {
+    margin-right: 10px
+}
+
+.etoileAvis .ratings i {
+    color: #cecece;
+    font-size: 32px
+}
+
+.etoileAvis .rating-color {
+    color: #fbc634 !important
+}
+
+.etoileAvis .review-count {
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 24px !important
+}
+
+.etoileAvis .small-ratings i {
+    color: #cecece
+}
+
+.etoileAvis .review-stat {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 2px
+}
+
+.etoileAvis button 
+{
+	font-size: 1.2em;
+	background-color: green;
+	color: white;
+	border-radius: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.etoileAvis h4 
+{
+	font-weight: bold;
+}
+.reGris
+{
+	background-color: #E5E5E5;
+}
+.pipo .small-ratings i
+{
+	color: #fbc634 !important
+}
+.pipo2 
+{
+	color: #3BABFE;
+}
+.pipoVert .fas 
+{
+	color: green;
+}
+.pipo4 .btn
+{
+	background:  green!important;
+}
+
+
+
+
+
+
+/* PAGE PESPACE */
+
+.espace h2
+{
+	text-decoration: none;
+	color: #4946C9;
+	font-weight: bold;
+}
+.espace p 
+{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.espace span 
+{
+	color:  #7873B0;
+}
+.espace2
+{
+	font-size: 1.2em;
+}
+.espace h5 
+{
+	color: #4946C9;
+	font-size: 1.5em;
+}
+.espace2 p 
+{
+	color:  #3BABFE;
+}
+.espace2 strong
+{
+	color:  red;
+}
+.espace2 h5
+{
+	font-size: 1.3em;
+}
+
+.espace4 p
+{
+	font-size: 1.4em;
+}
+.espace5 h3 
+{
+	color: white;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+.espace5
+{
+	background-color: #4946C9;;
+}
+.espace6 p 
+{
+	font-size: 1.3em;
+}
+.espace6 .fas 
+{
+	color:  #ebcb00;
+}
+.espace button 
+{
+	font-size: 3em;
+	background-color: #4946C9;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 8px;
+}
+
+
+
+/**************************************************************************************************************************************************/
+/**************************************************************************************************************************************************/
+
+
+
+/* PAGE NOUVEAU CLIENT */
+.intro_nouveau h4
+{
+	text-decoration: none;
+}
+
+.barreSaisie input
+{
+	width: 70%;
+}
+
+.barreSaisie2 input
+{
+	width: 20%;
+}
+span.etoile
+{
+	color: red;
+}
+
+
+
+/* PAGE MON COMPTE CONNEXION */
+.connexion
+{
+	background-color: #f2f2f2;
+}
+
+.blanc
+{
+	background-color: white;
+	border-radius: 20px;
+}
+.blanc ul
+{
+	list-style-type: none; 
+}
+
+
+
+
+/* PAGE MON COMPTE */
+
+.compte h3
+{
+	text-decoration: none;
+}
+
+
+
+/* PAGE MES COMMANDES */
+
+.compteCommande .active a
+{
+	text-decoration: none;
+	color: white;
+}
+.compteCommande h2, h5
+{
+	text-decoration: none;
+}
+
+.disabled
+{
+	color:  grey;
+}
+
+.compteCommande p
+{
+	font-size: 1.2em;
+}
+
+
+
+
+/* PAGE COMMANDE BIDON */
+
+.compteCommandeBidon h3
+{
+	color: blue;
+}
+
+.compteCommandeBidon .fas
+{
+	color: green;
+}
+
+.bidonBlack
+{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.compteCommandeBidon h4
+{
+	font-weight: bold;
+	color: #4147f2;
+	text-decoration: none;
+}
+.compteCommandeBidon button 
+{
+	background-color: transparent;
+	color: blue;
+	border-radius: 5px;
+}
+.bidon
+{
+	font-weight: bold;
+}
+.fondgris
+{
+	background-color: #E5E5E5;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+/**************************************************************************************************************************************************/
+/**************************************************************************************************************************************************/
+
+
+/* PANIER */
+
+.panier1 span
+{
+	font-weight: bold;
+	color:  blue;
+}
+
+.panier1b span
+{
+	text-decoration: line-through;
+	font-weight: bold;
+}
+.panier1b
+{
+	font-size: 1.5em;
+	background-color: #E5E5E5;
+	border-radius: 10px;
+}
+.boutonfinal2 .btn 
+{
+	background-color: #f6ab65!important;
+	font-size: 1.5em;
+}
+
+.boutonfinal1 .btn 
+{
+	font-size: 1.5em;
+
+}
+
+.boutonfinal1 a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/* PANIER ETAPE LIVRAISON */
+
+.boutonfinal2 a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.livPanier h2, h3,h4, h5
+{
+	text-decoration: none;
+}
+
+.livPanier h2
+{
+	font-weight: bold;
+}
+.livPanier span 
+{
+	font-size: 0.8em;
+}
+
+.fondOrangeclair
+{
+	background-color: #FDEDDE;
+	border-radius: 5px;
+}
+
+.blue h3 
+{
+	color:  blue;
+}
+.blue h5
+{
+	font-weight: bold;
+}
+.blue span 
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-left: 10px;
+}
+
+.blue2 h4
+{
+	color: blue;
+}
+
+
+
+
+
+/* PANIER ETAPE FINALE LE RECAP */
+
+.recapFinal h2
+{
+	text-decoration: none;
+}
+.recapFinal h4
+{
+	font-weight: bold;
+}
+.fondTerne
+{
+	background-color: #E5E5E5;
+	border-radius: 5px;
+}
+.fondTerne button
+{
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.2em;
+}
+.fondTerne button a
+{
+	text-decoration: none;
+}
+.barre span 
+{
+	text-decoration: line-through;
+}
+.livGras p
+{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.livGras h5
+{
+	text-decoration: underline;
+}
+.hipay button
+{
+	background-color: #345ADD;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 8px;
+	font-size: 1.3em;
+}
+.hipay button a 
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+/**************************************************************************************************************************************************/
+/**************************************************************************************************************************************************/
+
+
+
+
+
+
+/* MENTIONS LEGALES */
+.bread
+{
+	border-bottom: 1px solid black;
+	margin-left: 2px;
+}
+
+
+
+/* PAGE QUI SOMMES NOUS */
+.imageflottante
+{
+	float: right;
+}
+.stopfloat
+{
+	clear: both;
+}
+
+/* PAGE 404 */
+.oops h3
+{
+	text-decoration: none;
+}
+
+
+/* PAGE CONTACT */
+
+
+.contactez-nous {
+width: 700px;
+border: 1px solid;
+border-radius: 8px;
+padding: 0 30px 0 30px;
+background: white;
+}
+
+.contactez-nous input
+{
+	width: 100%;
+}
+
+.contactez-nous form div {
+width: 100%;
+display: flex;
+flex-direction: column;
+min-height: 83px;
+margin-top: 25px;
+}
+
+.contactez-nous form div > label {
+margin-bottom: 7px;
+font-weight: 600;
+}
+
+.contactez-nous form div > input, form div > select, form div > textarea {
+background: #adb3ff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-weight: 500;
+font-family: Montserrat, "sans-serif";
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+.contactez-nous form div > input, form div > select {
+height: 50px;
+padding-left: 10px;
+}
+
+.contactez-nous form div > select {
+appearance: none;
+background-size: 15px;
+background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
+background-position: right 10px top 50%;
+background-repeat: no-repeat;
+}
+
+.contactez-nous form div > textarea {
+height: 195px;
+padding: 15px 0px 0px 10px;
+}
+
+.contactez-nous form div > input::placeholder, form div > textarea::placeholder {
+color: white;
+}
+
+.contactez-nous form div > select:invalid {
+color: white;
+}
+
+.contactez-nous form div > select option {
+background: white;
+color: #303030;
+}
+
+.contactez-nous form div:last-child {
+align-items:center;
+margin-top: 20px;
+}
+
+.contactez-nous form button {
+width: 350px;
+height: 60px;
+font-weight: 700;
+font-size: 28px;
+background: white;
+border: rgba(48, 48, 48, 0.5) solid 1px;
+border-radius: 5px;
+box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+color: #303030;
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" />
+        <!-- BOOTSTRAP CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- script bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+         <!-- fontawesome -->
+         <script src="https://kit.fontawesome.com/6939106af0.js" crossorigin="anonymous"></script>
+
+         <!--owlcarousel-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         <!-- SWIPER -->
+         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+         <link href="style.css" rel="stylesheet" />
+        <title>FAQ</title>
+    </head>
+    <body>
+    <header>
+         <header>
+            <!-- header -->
+                <section class="container-fluid head"> 
+                    <div class="row">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <div class="col-lg-4 col-4 text-center">
+                                <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+                                <h5 class="py-1">La Nîmes'alerie</h5>
+                            </div>
+                            <div class="col-lg-4 col-4 text-center">
+                                <div class="btn-group ufo me-1">
+                                    <input type="mail" name="name" class="form-control px-5" required>
+                                    <a href="#" class="btn btn bg-perso2 text-white"><i class="fas fa-search"></i></a>                    
+                                </div> 
+                            </div>                           
+                            <div class="d-flex justify-content-center col-lg-4 col-4">
+                                <a class="btn mx-3" href="mon_compte.html" role="button"><img src="img/mc.png" alt="mon compte" /></a>
+                                <a class="btn" href="panier.html" role="button"><img src="img/panier.png" alt="panier" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            <!--navbar-->
+
+                <section class="tomate">
+                      <nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                             <span class="navbar-toggler-icon"></span>
+                            </button>
+                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                  <div class="navbar-nav w-100 justify-content-around ">
+                                       <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home pe-1"></i>Accueil</a>
+                                       <a class="nav-link" href="chienbase.html"><i class="fas fa-dog pe-1"></i>Chien</a>
+                                       <a class="nav-link" href="chatbase.html"><i class="fas fa-cat pe-1"></i>Chat</a>
+                                       <a class="nav-link" href="oiseaubase.html"><i class="fas fa-dove pe-1"></i>Oiseau</a>
+                                       <a class="nav-link" href="rongeurbase.html"><img src="img/rongeur.png" class="pb-1 pe-1" alt="" />Rongeur</a>
+                                       <a class="nav-link" href="aquatiquebase.html"><i class="fas fa-fish pe-1"></i>Aquatique</a>
+                                       <a class="nav-link" href="mission_espace.html"><i class="fas fa-user-astronaut pe-1"></i>Mission espace</a>
+                                    </div>
+                               </div>
+                           </div>
+                      </nav>
+                </section>
+
+
+            <!-- petit rapel réssurance -->
+                <section class="rappel">
+                      <div class="container text-center">
+                         <div class="row"> 
+                            <div class="col-lg-4 col-4">
+                               <i class="fas fa-truck pe-1"></i>Livraison offerte 
+                            </div>
+                            <div class="col-lg-4 col-4">
+                               <i class="fas fa-box-open pe-1"></i>Retour gratuit sous 30 jours
+                            </div>
+                            <div class="col-lg-4 col-4">
+                               <i class="fas fa-bone pe-1"></i>Un large choix de produits
+                            </div>
+                         </div>
+                      </div>
+                </section>
+
+                <section>
+                    <div class="container mt-5">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-4">
+                                <img src="img/faq.jpg" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>   
+                </section>
+
+        </header>
+    
+
+        <main>
+
+                <section>
+                    <div class="container">
+                        <div class="row mt-5 mb-5 text-center"> 
+                            <div class="col-lg-12 col-4">
+                                <h2>Que pouvons-nous faire pour vous ?</h2>
+                            </div>
+                        </div>
+                    </div>   
+                </section>
+
+
+                 <section>
+                    <div class="container">
+                        <div class="row mb-3"> 
+                            <div class="col-lg-12 col-4">
+                                <h4 class="mb-4"><i class="fas fa-star"></i> Questions fréquemment posées</h4>
+                                <p><strong>Où est ma commande ?</strong></p>
+
+                                <p>Si vous passez votre commande avant 16 h 00, nous livrons votre commande sous 3 à 5 jours ouvrables.
+
+                                Vous pouvez consulter le statut actuel de votre commande dans la rubrique « Mes commandes » sous <a href="mon_compte.html">Mon compte</a>.
+
+                                Suite à votre achat dans la boutique en ligne, votre commande est transmise à notre entrepôt. Dans la rubrique « Mes commandes », la commande est indiquée comme étant « En cours de traitement ».
+
+                                Le traitement dans notre entrepôt dure généralement un à deux jours.
+
+                                Dès que les collaborateurs de l’entrepôt remettent le colis à l’expéditeur, le statut dans « Mes commandes » passe à « Expédiée ». À ce moment-là, vous recevez de notre part un e-mail qui vous permet d’accéder au Suivi de l’envoi.
+
+                                Si nous n’avons toujours pas pu vous aider, veuillez contacter notre <a href="contact.html">service client</a>.</p>
+
+                                <hr>
+
+                                <p><strong>Puis-je modifier ou annuler ma commande ?</strong></p>
+
+                                <p>A l’heure actuelle, il n’est malheureusement pas possible de modifier ou annuler votre commande. Toutefois, si votre commande ne vous satisfait pas, vous avez la possibilité de nous la retourner dans les 30 jours suivant la livraison. Retrouvez toutes les informations concernant les retours <a href="retour_remboursement.html">ici</a>.</p>
+
+                                <hr>
+
+                                <p><strong>Pourquoi ma commande n’a-t-elle toujours pas été envoyée et se trouve encore « En cours de traitement » ?</strong></p>
+
+                                <p>Le statut de commande n’a pas changé depuis plus de 2 jours ouvrables.
+
+                                Il peut arriver que la préparation et l’emballage d’une commande durent plus longtemps que prévu. Nous regrettons ce retard.
+
+                                Généralement, nous vous informons par e-mail en cas de retard éventuel.
+
+                                Malheureusement, nous ne pouvons, ni via la boutique en ligne ni via la hotline client, vous dire exactement combien de temps le traitement à l’entrepôt durera.
+
+                                Dès que la commande quitte l’entrepôt, vous recevrez une confirmation d’envoi par e-mail. Un lien contenu dans l’e-mail vous permettra de suivre le cheminement de votre colis.
+
+                                Dans la rubrique « Mes commandes » sous « <a href="mon_compte.html">Mon compte</a> », le statut de votre livraison passera alors à « En cours de traitement ».
+
+                                Si la date de livraison prévue n’est pas acceptable pour vous, nous comprenons tout à fait.
+
+                                Dans ce cas, vous pouvez refuser la réception de la marchandise ou retourner la livraison après la réception.
+
+                                Naturellement, ces deux options n’entraîneront aucun frais pour vous.
+
+                                Si vous avez déjà payé la marchandise, nous vous remboursons le montant total après réception du retour dans un délai de 3  jours ouvrables.</p>
+
+                                <hr>
+
+                                <p><strong>Ma livraison est endommagée, que puis-je faire ?</strong></p>
+
+                                <p>Si vous avez reçu un article défectueux, veuillez remplir notre formulaire de <a href="contact.html">contact</a> afin que notre département qualité puisse contrôler les dommages.<br />
+                                Nous vous prions de ne pas jeter l’article avant d’avoir reçu une réponse de notre part.
+                                Vous avez également la possibilité de nous renvoyer la marchandise. Utilisez le coupon de retour dans votre colis à cet effet. Plus d’informations sur vos possibilités de <a href="retour_remboursement.html">renvoi</a>.</p>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>   
+                </section>
+
+
+                 <section>
+                    <div class="container mb-5">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-4">
+                                <h4 class="mb-5"><i class="fas fa-truck"></i> Livraison</h4>
+                                <p><strong>Statut de livraison</strong></p>
+                                <p>Dès que votre commande a quitté l’entrepôt, nous vous informons par e-mail de l’expédition de la marchandise. Dans l’e-mail de confirmation d’envoi, vous trouverez le numéro d’envoi qui vous permettra de suivre votre commande. Vous pouvez suivre votre commande via la page de statut de livraison de votre compte <a href="mes_commandes.html">ici</a>. Veuillez prendre en compte qu’au moment de l’expédition de la marchandise, les informations concernant votre commande doivent d’abord être transmises par voie électronique à Chronopost et que, pour cette raison, un délai de quelques heures peut s’écouler avant que le suivi de commande ne soit disponible.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>   
+                </section>
+
+
+
+                 <section>
+                    <div class="container mb-5">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-4">
+                                <h4 class="mb-3"><i class="fas fa-people-carry"></i> Réclamations et retours</h4>
+                                <p><strong>Renvoi et retours</strong></p>
+                                <p>Si un article ne vous plaît pas, ou en cas de dommage, vous pouvez le renvoyer à la boutique en ligne La Nîmes'alerie.fr dans un délai de 30 jours à compter du jour de réception de votre colis.<br/>
+
+                                Dès que votre retour a été enregistré dans notre entrepôt, vous recevez automatiquement une rectification de facture sous forme d’une ligne  de crédit. Si vous avez utilisé le mode de paiement Paypal, par carte de crédit, le montant correspondant vous sera crédité automatiquement par La Nîmes'alerie.<br />
+
+                                Veuillez noter que l’étiquette de retour actuellement fournie ne peut pas être utilisée.<br />
+
+                                Vous trouverez toutes les informations concernant vos retours <a href="retour_remboursement.html">ici</a>.<br />
+
+                                IMPORTANT : Votre article provenant de l’entrepôt de la boutique en ligne La Nîmes'alerie.fr et non pas du stock d’un magasin physique La Nîmes'alerie, il doit être retourné à ce même entrepôt. Pour des raisons évidentes de gestion des stocks et traçabilité des produits, votre article ne peut être retourné dans aucun magasin La Nîmes'alerie de France.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>   
+                </section>
+
+
+                <section>
+                    <div class="container mb-5">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-4">
+                                <h4 class="mb-3"><i class="far fa-credit-card"></i> Paiement</h4>
+                                <p><strong>Modes de paiement</strong></p>
+                                <p>Pour vos achats dans notre boutique en ligne La Nîmes'alerie.fr, nous vous proposons les modes de paiement suivants : <br />
+                                    <ul>
+                                        <li>PayPal</li>
+                                        <li>Carte de crédit</li>
+                                    </ul>
+                                Vous trouverez de plus amples informations <a href="paiement.html">ici</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>   
+                </section>
+
+                 <section>
+                    <div class="container mb-5">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-4">
+                                <h4 class="mb-3"><i class="fas fa-box-open"></i> Commande</h4>
+                                <p><strong>Puis-je modifier ou annuler ma commande ?</strong></p>
+                                <p>A l’heure actuelle, il n’est malheureusement pas possible de modifier ou annuler votre commande. Toutefois, si votre commande ne vous satisfait pas, vous avez la possibilité de nous la retourner dans les 30 jours suivant la livraison. Retrouvez toutes les informations concernant les retours <a href="retour_remboursement.html">ici</a></p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>   
+                </section>
+
+
+                <section>
+                    <div class="container mb-5">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-4">
+                                <h4 class="mb-3"><i class="fas fa-address-card"></i> Mon compte</h4>
+                                <p><strong>Inscription et login</strong></p>
+                                <p>Connexion et inscription : Vous pouvez créer votre compte sur La Nîmes'alerie.fr avant ou pendant votre commande.
+                                    Saisissez votre adresse e-mail et un mot de passe lors de votre inscription.<br />
+
+                                    Veillez à saisir une adresse e-mail correcte et valable, sinon vous ne pourrez plus vous connecter et ne recevrez aucun e-mail de confirmation ni aucun envoi.
+
+                                    <a href="mon_compte.html">Aller à la connexion ou à l’inscription</a><br />   
+
+                                    <strong>Mot de passe oublié :</strong> Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser à tout moment sur <a href="mdp_oublie.html">Mot de passe oublié</a>.<br /> 
+                                    Vous recevrez ensuite un e-mail avec un lien vous permettant de réinitialiser votre mot de passe.
+                                    Pour des raisons techniques, l’envoi de l’e-mail peut prendre quelques minutes. Si vous ne recevez aucun e-mail, veuillez vérifier votre dossier spam ou publicité de votre boite mail.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>   
+                </section>
+
+
+                <section>
+                    <div class="container">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-4">
+                                <h4 class="mb-3"><i class="fas fa-question"></i> Divers</h4>
+                                <p><strong>Notre gamme</strong></p>
+                                <p>Sur la boutique en ligne, nous avons rassemblé plus de 8000 articles pour répondre aux besoins de tout type d’animaux de compagnie.
+                                Il peut y avoir des différences de gammes et de prix entre les magasins et la boutique en ligne.
+                                Feuilletez simplement dans nos catégories ou informez-vous des offres actuelles.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>   
+                </section>
+
+            
+        </main>
+
+        <footer>
+
+            <!-- Newsletter -->
+                <section class="news">
+                    <div class="container mt-5 mb-3 text-center">
+                        <div class="row">
+                            <h4>Newsletter</h4>
+                            <div class="col-lg-12 col-sm-6">
+                                <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox1">Chien</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox2">Chat</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox3">Oiseau</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox4">Rongeur</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox5">Aquatique</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox6">Mission Espace</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                                </div>
+                               
+                                <button class="btn btn-primary mb-1" type="submit">Je m'inscris</button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            <!--Réassurance-->
+                <section>
+                    <div class="container my-5">
+                        <div class="row"> 
+                            <div class="col-lg col-sm-6">
+                               <div class="text-center">
+                                    <img src="img/secure.png" alt="secur" /><br />
+                                    <h4>Paiement sécurisé</h4> 
+                               </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                               <div class="text-center">
+                                    <img src="img/remb.png" alt="remboursement" /><br />
+                                    <h4>Remboursement</h4>
+                               </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                                <div class="text-center">
+                                    <img src="img/gratis.png" alt="livraison gratuite" /><br />
+                                    <h4>Livraison gratuite</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                                <div class="text-center pt-1">
+                                    <img src="img/liv.png" alt="delais livraison" /><br />
+                                    <h4>3 à 5 jours ouvrés</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                                <div class="text-center">
+                                    <img src="img/click.png" alt="click and collect" /><br />
+                                    <h4>Sous 2h</h4>
+                                </div>
+                            </div>
+                         </div>
+                      </div>
+                </section>
+
+
+            <!--Média-->
+                <section class="violette2">
+                    <div class="container mt-5 text-center">
+                        <div class="row height-special align-items-center">
+                            <div class="col-lg-4">
+                            <div class="border-rouge">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="text-center">
+                                <a href="https://www.facebook.com/" target="_blank"><img src="img/fb.png" alt="facebook" /></a>
+                                 <a href="https://twitter.com/" target="_blank"><img src="img/tw.png" alt="twitter" /></a>
+                                 <a href="https://www.instagram.com/" target="_blank"><img src="img/insta.png" alt="instagram" /></a>
+                            </div>
+                        </div>
+                            <div class="col-lg-4">
+                            <div class="border-rouge">
+                            </div>
+                            </div>
+                        </div>      
+                    </div>
+                </section>
+
+
+            <!--contact , services etc-->
+                <section class="violette">
+                    <div class="container">
+                        <div class="row d-flex justify-content-around">
+                            <div class="col-lg-4 col-sm-6 ">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                    <h5>Contactez nous :</h5>
+                                    <a href="https://www.google.fr/maps/place/E.Leclerc+BELLERIVE+SUR+ALLIER/@46.112918,3.3849344,15z/data=!4m5!3m4!1s0x47f6cd9caaf9f629:0x59f293cf5e57c8e2!8m2!3d46.1126156!4d3.4165908" target="_blank"><img src="img/gps.png" alt="..."></a>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                    <p>La Nîmes'alerie</p>
+                                    <p>17 Rue Cherche moi</p>
+                                    <p>30000 NÎMES</p>
+                                    <p>03 02 03 02 03</p>
+                                    <p>Magasin ouvert de 8h à 19h</p>
+                                    </div>
+                                </div>
+                             </div>
+
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                    <h5>Nos Services :</h5>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                    <p><a href="faq.html">FAQ</a></p>
+                                    <p><a href="paiement.html">Paiement</a></p>
+                                    <p><a href="livraison.html">Livraison</a></p>
+                                    <p><a href="retour_remboursement.html">Retour et Remboursement</a></p>
+                                    </div>
+                                </div>                          
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                    <h5>Découvrez nous :</h5>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                    <p><a href="qui_somme_nous.html">Qui sommes nous ?</a></p>
+                                    <p><a href="presse.html">Espace presse</a></p>
+                                    <p><a href="contact.html">Formulaire contact</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                      </div>
+                </section>
+
+            <!--copiright-->
+                <section class="copy">
+                    <div class="container">
+                        <div class="row pt-2"> 
+                            <div class="col-lg-6 col-sm-6">
+                                <p><strong>©La Nîmes’alerie 2021</strong></p>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <p><a href="mentions_legales.html">Mentions légales  ></a><a href="cgv.html">  CGV/CGU  ></a><a href="protection_donnees.html">  Protections des données</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+        </footer>
+
+
+    </body>
+</html>

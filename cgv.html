@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="style.css" rel="stylesheet" />
+        <!-- BOOTSTRAP CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <!-- script bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+         <!-- fontawesome -->
+         <script src="https://kit.fontawesome.com/6939106af0.js" crossorigin="anonymous"></script>
+
+         <!--owlcarousel-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         <!-- SWIPER -->
+         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+         <link href="style.css" rel="stylesheet" />
+        <title>CGV/CGU</title>
+    </head>
+
+    <body>
+
+                <header>
+               
+            <!-- header -->
+                <section class="container-fluid head"> 
+                    <div class="row">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <div class="col-lg-4 col-4 text-center">
+                                <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+                                <h5 class="py-1">La Nîmes'alerie</h5>
+                            </div>
+                            <div class="col-lg-4 col-4 text-center">
+                                <div class="btn-group ufo me-1">
+                                    <input type="mail" name="name" class="form-control px-5" required>
+                                    <a href="#" class="btn btn bg-perso2 text-white"><i class="fas fa-search"></i></a>                    
+                                </div> 
+                            </div>                           
+                            <div class="d-flex justify-content-center col-lg-4 col-4">
+                                <a class="btn mx-3" href="mon_compte.html" role="button"><img src="img/mc.png" alt="mon compte" /></a>
+                                <a class="btn" href="panier.html" role="button"><img src="img/panier.png" alt="panier" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            <!--navbar-->
+
+                <section class="tomate">
+                      <nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                             <span class="navbar-toggler-icon"></span>
+                            </button>
+                             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                  <div class="navbar-nav w-100 justify-content-around ">
+                                       <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home pe-1"></i>Accueil</a>
+                                       <a class="nav-link" href="chienbase.html"><i class="fas fa-dog pe-1"></i>Chien</a>
+                                       <a class="nav-link" href="chatbase.html"><i class="fas fa-cat pe-1"></i>Chat</a>
+                                       <a class="nav-link" href="oiseaubase.html"><i class="fas fa-dove pe-1"></i>Oiseau</a>
+                                       <a class="nav-link" href="rongeurbase.html"><img src="img/rongeur.png" class="pb-1 pe-1" alt="" />Rongeur</a>
+                                       <a class="nav-link" href="aquatiquebase.html"><i class="fas fa-fish pe-1"></i>Aquatique</a>
+                                       <a class="nav-link" href="mission_espace.html"><i class="fas fa-user-astronaut pe-1"></i>Mission espace</a>
+                                    </div>
+                               </div>
+                           </div>
+                      </nav>
+                </section>
+
+
+            <!-- petit rapel réssurance -->
+                <section class="rappel">
+                      <div class="container text-center">
+                         <div class="row"> 
+                            <div class="col-lg-4 col-4">
+                               <i class="fas fa-truck pe-1"></i>Livraison offerte 
+                            </div>
+                            <div class="col-lg-4 col-4">
+                               <i class="fas fa-box-open pe-1"></i>Retour gratuit sous 30 jours
+                            </div>
+                            <div class="col-lg-4 col-4">
+                               <i class="fas fa-bone pe-1"></i>Un large choix de produits
+                            </div>
+                         </div>
+                      </div>
+                </section>
+
+        </header>
+
+        <main>
+            
+                <section>
+                    <div class="container mt-2">
+                        <div class="row"> 
+                            <div class="col-lg-12 col-sm-6">
+                                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb" class='ps-3'>
+                                  <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                                    <li class="breadcrumb-item" aria-current="page">CGV/CGU</li>
+                                  </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="container">
+                        <div class="row bread mb-3"> 
+                                <div class="col-lg-12 col-sm-6">
+                                </div>
+                        </div> 
+                    </div>
+                </section>
+
+
+                <section>
+                    <div class="container">
+                        <div calss="row">
+                            <div class="col-lg-12 col-sm-6">
+                                <h6>Préambule</h6>
+                                <p>Dernière mise à jour des Conditions Générales de Vente effectuée le 05.05.2021</p>
+
+                                <h5>ARTICLE 1 : ACCEPTATION DES CONDITIONS GÉNÉRALES DE VENTE</h5>
+                                <p>Les présentes Conditions Générales de Vente régissent les relations commerciales entre la société La Nîmes’alerie, 17 Rue Cherche Moi et le client effectuant un achat sur le site internet www.La Nîmes’alerie.com (ci-après « le Client ») directement auprès de La Nîmes’alerie. Il est par ailleurs précisé que ces Conditions Générales de Vente sont applicables à toute commande La Nîmes’alerie.com.</p>
+
+                                <p>En effectuant sa commande sur La Nîmes’alerie.com, le Client déclare ainsi en avoir pleinement pris connaissance et les avoir acceptées sans réserve. L’acceptation des Conditions Générales de Vente par le client se matérialise en cochant une case, à chaque commande : « J’accepte les Conditions Générales de Vente ». Celui-ci atteste par ailleurs avoir la pleine capacité juridique lui permettant de contracter et de passer commande sur le site.</p>
+
+                                <h5>ARTICLE 2 : PRODUITS</h5>
+                                <p>Chaque fiche est accompagnée d’un descriptif faisant état des caractéristiques essentielles du produit. La Nîmes’alerie veille à ce que les visuels produits, photographies, films, vidéos, schémas ou dessins représentant des produits soient les plus fidèles possibles. La Nîmes’alerie attire toutefois l’attention du Client sur le fait que ces visuels ne peuvent assurer une similitude parfaite avec le produit proposé à la vente, s’agissant notamment du rendu des couleurs. Ces visuels ne constituent ainsi en aucun cas un document contractuel.</p>
+
+                                <p>La Nîles’alerie invite le Client à se reporter au descriptif de chaque produit pour en connaître les caractéristiques précises.</p>
+
+                                <p>Les offres de produits et de prix sont valables pour la durée de leur mise en ligne, sauf précision contraire inscrite sur la fiche produit. L’absence du bouton « Ajouter au panier » notamment signifie que le produit n’est pas disponible à la vente en ligne. Il est néanmoins précisé que le simple fait d’ajouter un produit dans le panier ne vaut pas validation de la commande car il se peut que celui-ci devienne indisponible entre le moment de l’ajout dans le panier et la validation de la commande par le Client. Le cas échéant, La Nîmes’alerie informera le Client dans les plus brefs délais de l’indisponibilité du produit à la suite de la commande passée et pourra lui proposer un produit dont les caractéristiques sont proches. Il est toutefois précisé que le Client ne sera toutefois en aucun cas tenu d’accepter le remplacement du produit initialement commandé par un autre produit. Ainsi, dans le cas où le Client n’accepterait pas le produit proposé, celui-ci ne sera pas débité de son montant.</p>
+
+                                <h5>ARTICLE 3 : COMMANDE</h5>
+
+                                <h6>3.1 Gestion et création d'un compte</h6>
+
+                                <p>Afin d’effectuer une commande sur le site La Nîmes'alerie.com, le Client doit disposer d’un compte Client sur le site de vente en ligne .La Nîmes’alerie.com. Ainsi, au moment d’effectuer sa commande, le Client sera invité à cliquer sur le bouton « M’identifier et poursuivre ma commande ». Dans le cas où le Client n’aurait pas de compte, celui-ci sera invité à procéder à sa création au cours de la commande en cliquant sur Nouveau Client « Créer un compte ».</p>
+
+                                <p>Certaines informations sont indispensables pour le traitement de la commande Client et sont dès lors indiquées comme champ obligatoire sur le formulaire de collecte d’informations au moyen d’un astérisque (*). Le Client s’engage à communiquer des informations sincères et garantit ainsi l’exactitude des données renseignées lors de la Création de son compte en ligne. En cas d'erreur dans le libellé des coordonnées du Client, La Nîmes’alerie n’est pas, par conséquent, responsable de l'impossibilité de livraison de la commande. Le Client peut, à tout moment, modifier les informations renseignées directement via son compte et/ou sur contact du Service Client. Le Client est invité à mettre ses données régulièrement à jour. Les informations énoncées par le Client, lors de la prise de commande engagent nécessairement celui-ci.</p>
+
+                                <p>Tout Traitement de Données Personnelles sera réalisé conformément aux conditions et modalités précisées à l’article 11 des présentes, renvoyant par ailleurs vers la Politique de Confidentialité de La Nîmes’alerie, et dans le respect des dispositions issues de la législation et réglementation en vigueur.</p>
+
+                                <h6>3.2 Passation et validation d'une commande</h6>
+
+                                <p>Afin de constituer son panier, le Client choisit ses produits et les quantités correspondantes, puis valide en cliquant sur le bouton « Ajouter au panier » pour un achat e-boutique, ou « En stock – Retirer en magasin » pour un retrait en magasin selon disponibilité du ou des produit(s). Le Client ne pourra pas mixer les 2 possibilités dans un même panier. En effet, les produits sélectionnés ne pouvant faire l’objet d’un retrait en magasin devront nécessairement faire l’objet d’une commande distincte.</p>
+
+                                <p>Sur l’écran du panier, le Client peut, à tout moment, supprimer un produit, modifier les quantités ou sortir pour revenir à la boutique. Le Client a toujours la possibilité de cliquer sur « Continuer vos achats » ou de « Valider mon panier ».</p>
+
+                                <p>En cliquant sur le bouton « Valider mon panier », le Client sera invité à choisir un mode de livraison, conformément aux conditions et modalités prévues à l’article 4 des présentes CGV, et à s’identifier si cela n’est pas déjà fait en cliquant ensuite sur « Identifiez-vous ou créez un compte ». Le Client veillera à ce que son adresse de livraison ainsi que son adresse de facturation soient exactes et est invité à modifier ces informations dans le cas où cela serait nécessaire.</p>
+
+                                <p>Afin de valider sa commande et payer, le Client doit cliquer sur le bouton « SUIVANT ». Un état récapitulatif de la commande indique notamment les produits choisis, le coût de la livraison et le total à payer. Le Client devra choisir son mode de paiement par CB ou par Paypal et devra impérativement avoir accepté les présentes Conditions Générales de Vente et cliquer ensuite sur « PASSER LA COMMANDE ».</p>
+
+                                <p>A la suite de la validation de sa commande, le Client est renvoyé vers la page de paiement sécurisé VISA ou PAYPAL selon son choix. Ce renvoi vers la page sécurisée du prestataire de paiement garantit ainsi qu’aucune information bancaire ne transite directement via le site www.La Nîmes’alerie.com. Le retour à la boutique en ligne est possible jusqu’à paiement sécurisé effectué avant lequel le Client peut toujours revenir sur le contenu de sa commande.</p>
+
+                                <p>Aux fins de valider sa commande, le Client procède à son règlement en renseignant ensuite ses coordonnées bancaires (numéro de carte bancaire, date de validité et cryptogramme de sécurité au verso de la carte de paiement). Il est précisé que les données bancaires ne seront pas conservées par La Nîmes’alerie et ne sont pas conservées par le prestataire de paiement sécurisé au-delà d’une durée de 13 mois suivant la date de débit et 15 mois pour un débit différé, et ce, à titre de preuve en cas de contestation de la transaction opérée.</p>
+
+                                <p>Après validation de sa commande par le service de paiement bancaire, le Client reçoit une confirmation de commande par courrier électronique.</p>
+
+                                <p>La Nîmes’alerie informera le Client par mail ou téléphone des éventuelles ruptures de stocks pouvant affecter sa commande.</p>
+
+                                <p>Il est rappelé que les informations énoncées par le Client, lors de la prise de commande engagent celui-ci : en cas d'erreur dans le libellé des coordonnées du destinataire, La Nîmes’alerie ne saurait être tenu responsable de l'impossibilité dans laquelle il pourrait être de livrer le produit.</p>
+
+                                <p>La Nîmes’alerie.com étant un site de vente de produits au détail, La Nîmes’alerie se réserve la possibilité de ne pas donner de suite à des commandes de produits identiques en grande quantité.</p>
+
+                                <h5>ARTICLE 4 : LIVRAISON ET RETRAIT EN MAGASIN</h5>
+
+                                <h6>Livraison</h6>
+
+                                <p>La livraison sera effectuée par des prestataires de transport dans les zones livrées par La Nîmes’alerie.com c’est-à-dire uniquement en France métropolitaine hors Corse dans toute zone accessible par voie routière. Il est par ailleurs précisé que pour les autres îles métropolitaines, la mise à disposition de la commande se fera à la gare maritime la plus proche sur le continent, et il appartiendra ensuite au client d’effectuer le reste de l’acheminent à ses risques et périls le transfert de risques se faisant au moment de la signature du bon de livraison.</p>
+
+                                <p>Le délai de livraison ainsi que les modalités propres à chaque mode de livraison sont indiqués au Client au moment du choix.</p>
+
+                                <p>Dans le cas précis d’une prise de rendez-vous intervenue au préalable avec le Client, si celui-ci devait être absent de son domicile au créneau horaire convenu préalablement et ainsi empêcher la livraison de la commande, La Nîmes’alerie pourra soit procéder de plein droit à l’annulation de la commande soit proposer de convenir d’un nouveau rendez-vous pour lequel La Nîmes’alerie se réserve le droit de facturer au Client des frais additionnels sur information préalable de celui-ci.</p>
+
+                                <p>En outre, La Nîmes’alerie attire l’attention toute particulière du Client sur la nature des Produits vendus s’agissant notamment des produits alimentaire ayant une résistance faible au transport et souhaite sensibiliser le Client sur le fait que ne pas honorer un rendez-vous pris pour une livraison peut participer à l’altération et nécessairement au gaspillage des Produits.</p>
+
+                                <p>En cas d’absence de livraison dans le délai maximum, non imputable au Client, et hors cas de force majeure tel que défini par la jurisprudence rencontré par La Nîmes’alerie ou ses transporteurs, le Client pourra demander la résolution de la vente conformément à la procédure légale en vigueur en mettant en demeure professionnel d’effectuer la livraison dans un délai supplémentaire par lettre recommandée avec accusé réception ou par écrit sur un support durable (par voie d’email via formulaire de contact en ligne). A défaut d’exécution par le professionnel dans le délai supplémentaire imparti, le Client aura la possibilité de lui notifier sa volonté d’obtenir la résolution de la vente. Le cas échéant, La Nîmes’alerie remboursera le Client au plus tard dans les quatorze (30) jours suivant la dénonciation de la commande correspondant à la date de réception de la lettre recommandée avec accusé réception par le professionnel.</p>
+
+                                <p>Importance de la vérification par le Client de l’ensemble de marchandise livrée :</p>
+
+                                <p>Au moment de la livraison, Il appartient au Client de toujours vérifier le bon état de son colis et de son contenu à l'arrivée de sa commande. S’il y a lieu, le Client doit immédiatement émettre l’ensemble de ses réserves, et ce, de façon précise directement sur le bon de livraison. Dans les cas d'un produit technique, le Client veillera particulièrement à vérifier le bon fonctionnement de l'appareil livré et à lire la notice d'emploi qui lui est fournie. Par la signature du bon de livraison sans aucune réserve, le Client est présumé avoir reçu la marchandise sans défaut apparent.</p>
+
+                                <p>Dans le cas où le colis et/ou son contenu serai(en)t endommagés, le Client est invité à refuser la marchandise délivrée par le transporteur et matérialiser ce refus expressément sur le bon de livraison accompagné de toutes réserves utiles.
+
+                                <p>Cette vérification par le Client au moment de la réception des produits devant le transporteur est indispensable en ce qu’elle permet à La Nîmes’alerie d’exercer ensuite un recours envers le transporteur pour tout défaut de conformité qui résulterait du transport ou de la livraison elle-même. Conformément au cadre légal en vigueur, le Client bénéficie par ailleurs de la garantie légale de conformité dans les conditions légales prévues aux articles L217-4 et suivants du Code de la consommation et de toutes autres garanties légales en vigueur. Indépendamment de la vérification du parfait état du produit livré, il en est de même de toute autre anomalie constatée par le Client lors de la livraison, chacune d’elles devant impérativement être reportée sur le bon de livraison.</p>
+
+                                <p>Pour des raisons de disponibilité, une commande peut être livrée en plusieurs fois au client. Il ne sera, dans cette hypothèse, pas facturé de coût de transport supplémentaire au client. Si le client souhaite 2 lieux de livraison, il passe 2 commandes, avec les frais de livraison liés.</p>
+
+                                <p>La Nîmes’alerie.com se réserve par ailleurs de modifier le choix du mode de livraison opéré par le client, pour un mode au moins aussi rapide, sans frais supplémentaires pour le client.</p>
+
+                                <h5>ARTICLE 5 : RÉTRACTATION - REMBOURSEMENT POUR LES ACHATS E-BOUTIQUE</h5>
+
+                                <p>Conformément à l’article L221-18 du code de la consommation, s’agissant de la vente à distance ou hors établissement, le Client, personne physique non professionnelle, bénéficie d’un droit de rétractation de quatorze (30) jours à compter de la réception de sa commande, sans avoir à motiver sa décision ni supporter d’autres coûts à l’exception des seuls frais de retour qui restent à la charge du Client.</p>
+
+                                <p>La Nîmes’alerie porte ce délai de rétractation à 30 jours au lieu des 14 jours accordés de façon légale à l’exception des produits soldés pour lesquels le droit de rétractation reste le délai légal en vigueur (à savoir 14 jours).</p>
+
+                                <p>Conformément au cadre légal en vigueur, ce droit de rétractation comporte certaines exceptions, s’agissant notamment de :</p>
+
+                                <p>La fourniture de biens confectionnés selon les spécifications du Client ou nettement personnalisés <br />
+                                La fourniture de biens susceptibles de se détériorer ou de se périmer rapidement</p>
+
+                                <p>Dès lors que le droit de rétractation serait ainsi admissible conformément aux dispositions légales en vigueur, le Client doit préalablement prendre contact avec La Nîmes’alerie :</p>
+
+                                <p>au numéro suivant : 03-02-03-02-03 (prix d'un appel local)<br />
+                                ou par voie d’email à l’adresse suivante : mail@LaNîmes’alerie.com
+
+                                <h6>5.1 Formulaire de rétractation</h6>
+
+                                <p>Veuillez compléter et renvoyer le présent formulaire (uniquement si vous souhaitez vous rétracter du contrat).</p>
+
+                                <p>À l'attention de  Service Retour La Nîmes’alerie, 17 Rue Cherche Moi, 30000 Nîmes (e-mail : mail@LaNîmes’alerie.com) :<br />
+
+                                Je/nous(*( vous notifie/notifions(*) par la présente ma/notre(*) rétractation du contrat portant sur la vente du bien(*) ci-dessous :<br />
+
+                                Commandé le (*)/reçu le (*) : ………………………………………<br />
+
+                                Nom du (des) consommateur(s) : ………………………………………<br />
+
+                                Adresse du (des) consommateur(s) : ………………………………………<br />
+
+                                Signature du (des) consommateur(s) (uniquement en cas de notification du présent formulaire sur papier) :<br />
+
+                                Date : .../.../......
+
+                                (*) Rayez la mention inutile</p>
+
+                                <p>Pour être remboursés, les produits retournés par le Client doivent impérativement se trouver dans leur carton d’origine et être en parfait état de revente. Dans le cas contraire, si le Produit devait être endommagé à son retour, La Nîmes’alerie sera en droit d’en refuser la reprise et leur remboursement. Il en est de même de tout produit qui aurait été descellé (par exemple : cd musicaux, produits épicerie emballés , produits alimentaires etc…). Le Client ne devra aller au-delà de ce qui est nécessaire afin d’apprécier les caractéristiques essentielles du produit (notamment tout port prolongé/lavage pour un vêtement est interdit, utilisation d’un produit…).</p>
+
+                                <p>En cas de demande d'échange ou de remboursement, le client contacte le service client afin de faire sa demande de retour. Le client doit renvoyer l'article neuf à ses frais, dans son emballage d'origine, accompagné de tous les accessoires éventuels, notices d'emploi et documentations, de son bon de retour, de son numéro de client et de son numéro de commande à l'adresse suivante :<br />
+
+                                Service Retour La Nîmes’alerie, 17 Rue Cherche Moi, 30000 Nîmes (e-mail : mail@LaNîmes’alerie.com)</p>
+
+                                <p>Le Client renvoie ou restitue les biens à La Nîmes’alerie ou à un transporteur selon les modalités de restitution prévues, sans retard excessif et au plus tard dans les quatorze (14) jours suivant la communication de sa volonté de se rétracter, à moins que le professionnel n’ait convenu expressément avec le Client de venir récupérer le(s) produits par un autre moyen.</p>
+
+                                <p>La Nîmes’alerie procèdera ensuite au remboursement du ou des produit(s) retournés à l’exception des frais de retour restant à la charge du Client et des avantages promotionnels éventuellement accordé conditionné précédemment à l’achat qui auront vocation être déduits du montant remboursé. Le remboursement s’opèrera en utilisant le même moyen de règlement que celui utilisé par le Client, sauf accord exprès du Client pour utiliser un autre moyen de paiement et dans la mesure où le remboursement n’occasionne pas de frais supplémentaires.</p>
+
+                                <h5>ARTICLE 6 : PAIEMENT</h5>
+
+                                <p>Le prix facturé à l’Acheteur est le prix indiqué sur la confirmation de commande adressée par courrier électronique. Le prix des produits est payable au comptant le jour de la commande. Le paiement s'effectue par carte bancaire portant le sigle CB (Visa, Visa Electron) et Paypal.</p>
+
+                                <p>Les cartes bancaires des pays suivants sont acceptées : Allemagne, Andorre, Autriche, Belgique, Danemark, Espagne, France, Italie, Luxembourg, Monaco, Pays-Bas, Portugal, Royaume-Unis, Slovénie, Suède, Suisse. Pour les Etats-Unis les cartes VISA et MASTERCARD sont acceptées.</p>
+
+                                <p>La commande validée par le Client ne sera considérée effective que lorsque les centres de paiement bancaire concernés auront donné leur accord. En cas de refus des dits centres, la commande sera automatiquement annulée et le Client prévenu par courrier électronique.</p>
+
+                                <p>Le débit de la carte n’est effectué qu’au moment de la validation de la commande par le Vendeur.</p>
+
+                                <h5>ARTICLE 7 : LIVRAISON</h5>
+
+                                <p>La livraison sera effectuée par le Vendeur Partenaire et ses prestataires de transport uniquement en France métropolitaine, hors Corse dans toute zone accessible par voie routière.</p>
+
+                                <p>Afin d’obtenir des informations relatives à sa commande le Client est invité à prendre contact directement avec le Vendeur Partenaire, en adressant un mail à celui-ci en cliquant sur « Contacter le vendeur ». Une réponse sera alors apportée sous 3 à 5 jours ouvrés directement dans votre boite mail.</p>
+
+                                <p>Le choix entre les différents modes de livraisons proposés en fonction de la typologie de produit commandé se fait au moment de la validation de la commande par le Vendeur. Le prix de la livraison est indiqué au moment de sa sélection et vient ainsi s’ajouter au montant total du panier de commande.</p>
+
+                                <p>Le délai de livraison ainsi que les modalités propres à chaque mode de livraison sont indiqués au Client au moment du choix.</p>
+
+                                <p>Dans ce cadre, La Nîmes’alerie se doit nécessairement de transmettre les coordonnées saisies par l’Acheteur au moment de la création de son compte Client ou de la passation de sa commande s’il ne dispose pas de compte Client (nom, prénom, adresse postale, adresse email, numéro de téléphone mobile ) sur le site www.La Nîmes’alerie.com afin de lui permettre de procéder à la livraison sur le fondement de la commande passé (commande = base juridique du contrat). Ces informations seront transmises au Vendeur Partenaire dès lors que celui-ci aura accepté la commande de l’Acheteur. Ce traitement de données personnelles sera réalisé conformément au cadre légal et réglementaire en vigueur et dans les conditions stipulées dans la Politique de Traitements des Données Personnelles la Nîmes'alerie.</p>
+
+                                <p>Au sein de chaque Fiche Produit, le Vendeur Partenaire informe l’Acheteur du délai prévisionnel de livraison.</p>
+
+                                <p>Les modes de livraison possibles pour chaque Produit proposé sont indiqués par le Vendeur Partenaire au niveau du descriptif Produit ainsi que les éventuelles restrictions de livraison.</p>
+
+                                <p>L’Acheteur est invité à prendre pleinement connaissance des Conditions Particulières du Vendeur afin de connaître l’ensemble des conditions et modalités de livraison.</p>
+
+                                <p>Dans le cas précis d’une prise de rendez-vous intervenue au préalable avec l’Acheteur, si celui-ci devait être absent de son domicile au créneau horaire convenu préalablement et ainsi empêcher la livraison de la commande, le Vendeur Partenaire pourra soit procéder de plein droit à l’annulation de la commande soit proposer de convenir d’un nouveau rendez-vous pour lequel le Vendeur Partenaire pourra décider de facturer à l’Acheteur des frais additionnels sur information préalable de celui-ci.</p>
+
+                                <p>En outre, il est attiré l’attention toute particulière de l’Acheteur sur la nature des Produits vendus s’agissant notamment des végétaux ayant une résistance faible au transport (besoin de lumière, d’eau et d’une température adaptée) et souhaite sensibiliser l’Acheteur sur le fait que ne pas honorer un rendez-vous pris pour une livraison peut participer à l’altération et nécessairement au gaspillage des Produits.</p>
+
+                                <p>En cas d’absence de livraison dans le délai maximum, non imputable au Client, et hors cas de force majeure tel que défini par la jurisprudence rencontré par le Vendeur ou ses transporteurs, l’Acheteur pourra demander la résolution de la vente conformément à la procédure légale en vigueur en mettant en demeure le Vendeur d’effectuer la livraison dans un délai supplémentaire par lettre recommandée avec accusé réception ou par écrit sur un support durable (par voie d’email via formulaire de contact en ligne). A défaut d’exécution par le Vendeur dans le délai supplémentaire imparti, l’Acheteur aura la possibilité de lui notifier sa volonté d’obtenir la résolution de la vente. Le cas échéant, l’Acheteur sera remboursé dans les quatorze (14) jours suivant la dénonciation de la commande correspondant à la date de réception de la lettre recommandée avec accusé réception par le Vendeur. Le remboursement sera effectué par le même moyen de paiement utilisé par l’Acheteur (par crédit de la carte bancaire utilisée lors de l’achat sur La Nîmes'alerie.com).</p>
+
+                                <p>Importance de la vérification par le Client de l’ensemble de marchandise livrée : Au moment de la livraison, Il appartient au Client de toujours vérifier le bon état de son colis et de son contenu à l'arrivée de sa commande. S’il y a lieu, l’Acheteur doit immédiatement émettre l’ensemble de ses réserves, et ce, de façon précise directement sur le bon de livraison. Dans les cas d'un produit technique, l’Acheteur veillera particulièrement à vérifier le bon fonctionnement de l'appareil livré et à lire la notice d'emploi qui lui est fournie. Par la signature du bon de livraison sans aucune réserve, l’Acheteur est présumé avoir reçu la marchandise sans défaut apparent.</p>
+
+                                <p>Dans le cas où le colis et/ou son contenu serai(en)t endommagés, l’Acheteur est invité à refuser la marchandise délivrée par le transporteur et matérialiser ce refus expressément sur le bon de livraison accompagné de toutes réserves utiles.</p>
+
+                                <p>Cette vérification par l’Acheteur au moment de la réception des produits devant le transporteur est indispensable en ce qu’elle permet au Vendeur Partenaire d’exercer ensuite un recours envers le transporteur pour tout défaut de conformité qui résulterait du transport ou de la livraison elle-même. Conformément au cadre légal en vigueur, l’Acheteur bénéficie par ailleurs de la garantie légale de conformité dans les conditions légales prévues aux articles L217-4 et suivants du Code de la consommation et de toutes autres garanties légales en vigueur.</p>
+
+                                <p>Indépendamment de la vérification du parfait état du produit livré, il en est de même de toute autre anomalie constatée par l’Acheteur lors de la livraison, chacune d’elles devant impérativement être reportée sur le bon de livraison.</p>
+
+
+                                <h5>ARTICLE 8 : RÉTRACTATION</h5>
+
+                                <h6>8.1. Information sur le droit de rétractation</h6>
+
+                                <p>L’Acheteur a le droit de se rétracter du contrat conclu avec le Vendeur sans donner de motif dans un délai de trente jours, sauf indication d’un délai plus long indiqué dans les conditions particulières du Vendeur et notamment sur la fiche Produit.</p>
+
+                                <p>Le délai de rétractation expire trente jours après le jour :</p>
+
+                                <p>a) s’il s’agit d’un contrat de vente : le jour où l’Acheteur ou un tiers autre que le transporteur et désigné par l’Acheteur, prend physiquement possession du bien ;</p>
+
+                                <p>b) s’il s’agit d’un contrat portant sur plusieurs biens commandés par l’Acheteur au moyen d’une seule commande et si ces biens sont livrés séparément : le jour où l’acheteur, ou un tiers autre que le transporteur et désigné par l’Acheteur, prend physiquement possession du dernier bien ;</p>
+
+                                <p>c) s’il s’agit d’un contrat portant sur la livraison d’un bien en plusieurs lots ou pièces : le jour où l’Acheteur ou un tiers autre que le transporteur et désigné par l’Acheteur, prend physiquement possession du dernier lot ou de la dernière pièce.</p>
+
+                                <p>Pour exercer le droit de rétractation, l’acheteur doit notifier au Vendeur, aux coordonnées figurant dans ses conditions particulières et / ou sur la fiche Produit, sa décision de rétractation du contrat conclu avec le Vendeur au moyen d’une déclaration dénuée d’ambiguïté (par exemple, lettre envoyée par la poste, télécopie ou courrier électronique).</p>
+
+                                <p>L’Acheteur peut utiliser le formulaire de rétractation figurant au 8.2. mais ce n’est pas obligatoire.</p>
+
+                                <p>Pour que le délai de rétractation soit respecté, il suffit que l’Acheteur transmette au Vendeur sa communication relative au droit de rétractation avant l’expiration du délai de rétractation.</p>
+
+                                <h6>Effets de la rétractation</h6>
+
+                                <p>En cas de rétractation de l’Acheteur du contrat conclu avec le Vendeur, le Vendeur remboursera tous les paiements reçus de l’Acheteur, y compris les frais de livraison (à l’exception des frais supplémentaires découlant du fait que l’Acheteur ait choisi, le cas échéant, un mode de livraison autre que le mode moins coûteux de livraison standard proposé par le Vendeur sans retard excessif et, en tout état de cause, au plus tard trente jours à compter du jour où le Vendeur est informé de la décision de rétractation du contrat conclu avec le Vendeur. Le Vendeur et / ou La Nîmes’alerie par l’intermédiaire de son prestataire en services de paiement, procèdera ou procèderont au remboursement en utilisant le même moyen de paiement que celui que l’Acheteur a utilisé pour la transaction initiale, sauf si le Vendeur et l’Acheteur conviennent expressément d’un moyen différent ; en tout état de cause, ce remboursement n’occasionnera pas de frais pour l’Acheteur.</p>
+
+                                <p>L’Acheteur devrai renvoyer ou rendre le bien aux coordonnées figurant dans les conditions particulières du Vendeur sans retard excessif et, en tout état de cause, au plus tard trente jours après que l’Acheteur ait communiqué sa décision de rétractation du contrat conclu avec le Vendeur. Ce délai est réputé respecté si l’Acheteur renvoie le bien avant l’expiration du délai de trente jours.</p>
+
+                                <p>L’Acheteur devra prendre en charge les frais directs de renvoi du bien. Ces frais sont estimés à un maximum précisé par le Vendeur dans les conditions particulières et / ou la Fiche Produit.</p>
+
+                                <h5>ARTICLE 9 : GARANTIES LÉGALES</h5>
+
+                                <h6>9.1 Garanties légales</h6>
+
+                                <p>Conformément aux dispositions légales en vigueur telles qu’issues du Code de la consommation (article L217-4 et suivants), en tant que Vendeur, le Vendeur Partenaire est tenu de répondre des défauts de conformité d’un produit existant au moment de la délivrance, et ce, indépendamment de toute garantie commerciale qui pourrait par ailleurs avoir été souscrite.</p>
+
+                                <p>Le bien livré doit en effet :</p>
+
+                                <p>- correspondre à la description donnée par le vendeur et posséder les qualités que celui- présente à l’acheteur sous forme d’échantillon ou de modèle</p>
+
+                                <p>- et présenter les qualités qu’un acheteur peut légitimement attendre eu égard aux déclarations publiques par le vendeur, par le producteur ou par son représentant, notamment dans la publicité ou l’étiquetage</p>
+
+                                <p>Cette garantie s’applique pendant un délai de deux (2) ans à compter de la réception du produit. Pour tout achat effectué après le 18 mars 2016, l’Acheteur bénéficie d’une présomption de non-conformité à son profit pendant les deux (2) ans de garantie. Le vendeur conserve toutefois la possibilité de combattre cette présomption en démontrant qu’il ne s’agit pas d’un défaut de conformité existant déjà au moment de l’achat mais d’une mauvaise utilisation, mauvaise manipulation ou d’un défaut d’entretien de la part de l’Acheteur.</p>
+
+                                <p>Dès lors que l’Acheteur constaterait un défaut de conformité, celui-ci est invité à exercer sa garantie légale de conformité en prenant préalablement contact directement avec le Vendeur Partenaire au moyen de la messagerie mise à disposition via le site internet www.La Nîmes’alerie.com.</p>
+
+                                <p>Toute demande devra être accompagnée de photos venant en appui de la réclamation formulée par l’Acheteur et permettant ainsi au Vendeur de procéder aux constatations.</p>
+
+                                <p>Dans le cas où le défaut de conformité serait avéré, le Client pourra demander la réparation ou le remplacement du produit sauf à ce que l’une de ces deux options ne présente une différence de coût manifeste dans ce cas le Client pourra opter pour l’option la moins coûteuse. A défaut de remplacement ou de réparation sous un délai maximum d’un mois, le Client pourra obtenir le remboursement du prix du produit conditionné à la réception du produit défectueux retourné par le Client.</p>
+
+                                <p>L’Acheteur bénéficie par ailleurs de la garantie légale des vices cachés conformément aux dispositions légales en vigueur issue des articles 1641 à 1649 du Code Civil. L’Acheteur devra prendre contact directement avec le Vendeur Partenaire via son Espace Personnel afin de mettre en œuvre toute garantie. Dans le cas où l’Acheteur aurait passé commande sans créer de Compte sur Animalis.com, celui-ci devra prendre contact au moyen du Formulaire de Contact disponible sur le site La Nîmes’alerie.com ou par téléphone au 03-02-03-02-03. La Nîmes’alerie fera ainsi l’intermédiaire entre l’Acheteur et le Vendeur Partenaire.</p>
+
+                                <h6>9.2 Garanties commerciales</h6>
+
+                                <p>Le Vendeur est également libre de proposer des garanties contractuelles supplémentaires aux Acheteurs (garanties commerciales). Ces garanties pourront être accordées à titre gratuit ou payant selon ce qui est précisé aux Conditions Particulières du Vendeur. Tout frais additionnel facturé à ce titre devra avoir été accepté préalablement par l’Acheteur.</p>
+
+                                <p>L’Acheteur est en ce sens invité à prendre connaissance des précisions apportées par le Vendeur au niveau de sa Fiche Produit ou de la Fiche Vendeur en cliquant sur « Vendu par ‘Nom du Vendeur’.</p>
+
+                                <p>Cette garantie est un supplément des garanties légales, elle ne les remplace pas mais s'y ajoute. L’Acheteur pourra continuer de faire valoir les garanties légales en cas de problème.
+                                L’Acheteur est informé de ce que le vendeur ou le fabricant est libre de définir les conditions d'application de sa garantie commerciale. Par exemple, la garantie peut couvrir les pièces mais pas la main-d'œuvre. Elle peut aussi exclure certaines pièces ou certaines pannes.</p>
+
+                                <p>Toutes ces conditions doivent obligatoirement être indiquées dans un contrat de garantie écrit remis par le vendeur (ou le fabricant).</p>
+
+                                <p>Ce contrat doit donner les informations suivantes : le contenu de la garantie (quelles pièces sont couvertes....), les informations nécessaires à sa mise en œuvre (où vous devez remettre le produit défectueux....), la durée, son étendue territoriale (si vous pouvez remettre le produit dans un magasin de la chaîne à l'étranger...), les coordonnées du vendeur ou du fabricant, le coût éventuel, le rappel de l'obligation du vendeur (ou du fabricant) de se conformer aux garanties légales (conformité et vices cachés) en plus de la garantie commerciale. Le contrat écrit doit reproduire les articles du code de la consommation (L217-4, L217-5, L217-12, L.217-16) et du code civil (articles 1641 et 1648) concernant ces garanties légales, la prolongation de la garantie en cas d'immobilisation du bien pendant sa réparation ou son remplacement pendant plus de 7 jours calendaires.</p>
+
+                                <p>Le contrat doit reproduire les dispositions légales issues de l'article L217-16 du code de la consommation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        </main>
+
+        <footer>
+
+            <!-- Newsletter -->
+                <section class="news">
+                    <div class="container mt-5 mb-3 text-center">
+                        <div class="row">
+                            <h4>Newsletter</h4>
+                            <div class="col-lg-12 col-sm-6">
+                                <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox1">Chien</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox2">Chat</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox3">Oiseau</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox4">Rongeur</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox5">Aquatique</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                                </div>
+                                 <div class="form-check form-check-inline">
+                                  <label class="form-check-label" for="inlineCheckbox6">Mission Espace</label>
+                                  <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                                </div>
+                               
+                                <button class="btn btn-primary mb-1" type="submit">Je m'inscris</button>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            <!--Réassurance-->
+                <section>
+                    <div class="container my-5">
+                        <div class="row"> 
+                            <div class="col-lg col-sm-6">
+                               <div class="text-center">
+                                    <img src="img/secure.png" alt="secur" /><br />
+                                    <h4>Paiement sécurisé</h4> 
+                               </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                               <div class="text-center">
+                                    <img src="img/remb.png" alt="remboursement" /><br />
+                                    <h4>Remboursement</h4>
+                               </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                                <div class="text-center">
+                                    <img src="img/gratis.png" alt="livraison gratuite" /><br />
+                                    <h4>Livraison gratuite</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                                <div class="text-center pt-1">
+                                    <img src="img/liv.png" alt="delais livraison" /><br />
+                                    <h4>3 à 5 jours ouvrés</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg col-sm-6">
+                                <div class="text-center">
+                                    <img src="img/click.png" alt="click and collect" /><br />
+                                    <h4>Sous 2h</h4>
+                                </div>
+                            </div>
+                         </div>
+                      </div>
+                </section>
+
+
+            <!--Média-->
+                <section class="violette2">
+                    <div class="container mt-5 text-center">
+                        <div class="row height-special align-items-center">
+                            <div class="col-lg-4">
+                            <div class="border-rouge">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="text-center">
+                                <a href="https://www.facebook.com/" target="_blank"><img src="img/fb.png" alt="facebook" /></a>
+                                 <a href="https://twitter.com/" target="_blank"><img src="img/tw.png" alt="twitter" /></a>
+                                 <a href="https://www.instagram.com/" target="_blank"><img src="img/insta.png" alt="instagram" /></a>
+                            </div>
+                        </div>
+                            <div class="col-lg-4">
+                            <div class="border-rouge">
+                            </div>
+                            </div>
+                        </div>      
+                    </div>
+                </section>
+
+
+            <!--contact , services etc-->
+                <section class="violette">
+                    <div class="container">
+                        <div class="row d-flex justify-content-around">
+                            <div class="col-lg-4 col-sm-6 ">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                    <h5>Contactez nous :</h5>
+                                    <a href="https://www.google.fr/maps/place/E.Leclerc+BELLERIVE+SUR+ALLIER/@46.112918,3.3849344,15z/data=!4m5!3m4!1s0x47f6cd9caaf9f629:0x59f293cf5e57c8e2!8m2!3d46.1126156!4d3.4165908" target="_blank"><img src="img/gps.png" alt="..."></a>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                    <p>La Nîmes'alerie</p>
+                                    <p>17 Rue Cherche moi</p>
+                                    <p>30000 NÎMES</p>
+                                    <p>03 02 03 02 03</p>
+                                    <p>Magasin ouvert de 8h à 19h</p>
+                                    </div>
+                                </div>
+                             </div>
+
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                    <h5>Nos Services :</h5>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                    <p><a href="faq.html" target="_blank">FAQ</a></p>
+                                    <p><a href="paiement.html" target="_blank">Paiement</a></p>
+                                    <p><a href="livraison.html" target="_blank">Livraison</a></p>
+                                    <p><a href="retour_remboursement.html" target="_blank">Retour et Remboursement</a></p>
+                                    </div>
+                                </div>                          
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                    <h5>Découvrez nous :</h5>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                    <p><a href="qui_somme_nous.html" target="_blank">Qui sommes nous ?</a></p>
+                                    <p><a href="presse.html" target="_blank">Espace presse</a></p>
+                                    <p><a href="contact.html">Formulaire contact</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                      </div>
+                </section>
+
+            <!--copiright-->
+                <section class="copy">
+                    <div class="container">
+                        <div class="row pt-2"> 
+                            <div class="col-lg-6 col-sm-6">
+                                <p><strong>©La Nîmes’alerie 2021</strong></p>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <p><a href="mentions_legales.html">Mentions légales  ></a><a href="cgv.html">  CGV/CGU  ></a><a href="protection_donnees.html">  Protections des données</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </footer>
+    </body>
+</html>
